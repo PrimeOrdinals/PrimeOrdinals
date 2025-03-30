@@ -1,4 +1,4 @@
-interface XverseProvider {
+declare interface XverseProvider {
   connect(): Promise<{
     addresses: Array<{
       address: string;
@@ -18,3 +18,5 @@ declare global {
     BitcoinProvider: XverseProvider;
   }
 }
+
+export {};
