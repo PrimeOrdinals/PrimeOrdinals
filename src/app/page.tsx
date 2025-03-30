@@ -2,15 +2,13 @@
 
 import {
   Box,
-  Button,
   Container,
   Flex,
   Grid,
   Heading,
-  HStack,
-  Link,
   Stack,
   Text,
+  Button,
   VStack,
 } from '@chakra-ui/react';
 import TrendingCollections from '../components/TrendingCollections';

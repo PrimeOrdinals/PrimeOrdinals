@@ -3,18 +3,17 @@
 import {
   Box,
   Container,
-  Grid,
-  Heading,
+  SimpleGrid,
   Text,
   Flex,
   Stack,
-  SimpleGrid,
   Button,
   HStack,
   Stat,
   StatLabel,
   StatNumber,
   StatHelpText,
+  Heading,
   Icon,
 } from '@chakra-ui/react';
 import { CheckCircleIcon } from '@chakra-ui/icons';
