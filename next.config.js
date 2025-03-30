@@ -7,7 +7,9 @@ const nextConfig = {
         hostname: '**',
       },
     ],
+    unoptimized: true
   },
+  output: 'standalone',
 }
 
 module.exports = nextConfig
